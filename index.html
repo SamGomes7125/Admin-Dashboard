@@ -1,24 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="container">
 
+    <!-- SIDEBAR -->
     <aside class="sidebar">
-      Sidebar
+      <div class="sidebar-brand">
+        <img src="odin.png" alt="Logo" class="logo">
+        <h2>Dashboard</h2>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#">🏠 Home</a>
+        <a href="#">📁 Projects</a>
+        <a href="#">🧍 Profile</a>
+        <a href="#">✉️ Messages</a>
+        <a href="#">📊 Analytics</a>
+        <a href="#">⚙️ Settings</a>
+      </nav>
+
+      <nav class="sidebar-secondary">
+        <a href="#">❓ Support</a>
+        <a href="#">🔒 Privacy</a>
+      </nav>
     </aside>
 
+    <!-- HEADER -->
     <header class="header">
-      Header
+
+      <div class="header-top">
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+        </div>
+
+        <div class="user-section">
+          <span class="bell">🔔</span>
+          <img src="https://via.placeholder.com/40" class="profile-img">
+          <p class="username">Swarnabha</p>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="user-welcome">
+          <img src="https://via.placeholder.com/60" class="profile-img-large">
+          <div>
+            <p>Hello,</p>
+            <h2>Swarnabha (@sam)</h2>
+          </div>
+        </div>
+
+        <div class="header-buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main class="main-content">
-      Main Content
+
+      <!-- Projects Section -->
+      <section class="projects">
+        <h2>Your Projects</h2>
+
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <h3>Project One</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Three</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Four</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Five</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Six</h3>
+            <p>Dummy text for layout</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ANNOUNCEMENTS -->
+      <section class="announcements">
+        <h2>Announcements</h2>
+
+        <div class="announcements-box">
+          <p><strong>Site Maintenance</strong><br>Dummy text for layout</p>
+          <p><strong>Community Day</strong><br>Dummy text for layout</p>
+          <p><strong>Policy Update</strong><br>Dummy text for layout</p>
+        </div>
+      </section>
+
+      <!-- TRENDING -->
+      <section class="trending">
+        <h2>Trending</h2>
+
+        <div class="trending-box">
+          <div class="trend-item">
+            <img src="https://via.placeholder.com/40">
+            <p>@alex — UI Project</p>
+          </div>
+          <div class="trend-item">
+            <img src="https://via.placeholder.com/40">
+            <p>@jane — AI Dashboard</p>
+          </div>
+          <div class="trend-item">
+            <img src="https://via.placeholder.com/40">
+            <p>@mike — Marketing App</p>
+          </div>
+          <div class="trend-item">
+            <img src="https://via.placeholder.com/40">
+            <p>@emma — Mobile UI</p>
+          </div>
+        </div>
+
+      </section>
+
     </main>
 
   </div>
